@@ -1,0 +1,11 @@
+{
+  "domain": "intellinet_pdu",
+  "name": "Intellinet IP Smart PDU",
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/your-repo/intellinet_pdu",
+  "iot_class": "local_polling",
+  "requirements": ["requests", "lxml", "beautifulsoup4"],
+  "version": "1.0.0"
+}

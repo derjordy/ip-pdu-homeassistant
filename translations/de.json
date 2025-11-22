@@ -1,0 +1,26 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "IP PDU Einrichtung",
+        "description": "Gib die Verbindungsdaten für deine IP Smart PDU ein.",
+        "data": {
+          "host": "Host (IP-Adresse)",
+          "username": "Benutzername",
+          "password": "Passwort",
+          "voltage": "Spannung"
+        },
+        "data_description": {
+          "voltage": "Wähle deine lokale Netzspannung für eine genaue Leistungsberechnung (Watt). 230V: Europa, Australien, Asien, Afrika. 220V: Teile von Europa/Asien. 240V: UK, Australien. 120V: USA, Kanada, Mexiko. 110V: Japan, Taiwan. 100V: Japan."
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Verbindung zur PDU fehlgeschlagen. Bitte IP-Adresse und Zugangsdaten prüfen.",
+      "unknown": "Unerwarteter Fehler aufgetreten."
+    },
+    "abort": {
+      "already_configured": "Diese PDU ist bereits konfiguriert."
+    }
+  }
+}
