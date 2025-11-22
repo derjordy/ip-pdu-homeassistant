@@ -54,3 +54,6 @@ These PDU devices have minimal security. The HTTP authentication only protects t
 ## License
 
 MIT License
+
+## Credits
+Based on Intellinet PDU API by [@01programs](https://github.com/01programs/Intellinet_163682_IP_smart_PDU_API)
